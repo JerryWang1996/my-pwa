@@ -1,5 +1,5 @@
-importScripts("/precache-manifest.8f5581cf5036eb1e0a4e98bbbf893450.js", "/workbox-v3.6.3/workbox-sw.js");
-workbox.setConfig({modulePathPrefix: "/workbox-v3.6.3"});
+importScripts("precache-manifest.05ab0825515bf99831312a6ef4fe7720.js", "workbox-v3.6.3/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "workbox-v3.6.3"});
 workbox.loadModule('workbox-strategies');
 
 const cacheVersion = '20191009v1'
