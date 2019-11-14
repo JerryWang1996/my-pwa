@@ -1,8 +1,9 @@
-importScripts("precache-manifest.05ab0825515bf99831312a6ef4fe7720.js", "workbox-v3.6.3/workbox-sw.js");
+importScripts("precache-manifest.6adde45a6e70c6a6b2f4fe3dc6e9166c.js", "workbox-v3.6.3/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "workbox-v3.6.3"});
+// importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.6.1/workbox-sw.js');
 workbox.loadModule('workbox-strategies');
 
-const cacheVersion = '20191009v1'
+const cacheVersion = '20191114v1'
 const staticCacheName = 'static' + cacheVersion
 const staticAssetsCacheName = '/' + cacheVersion
 const vendorCacheName = 'verdor' + cacheVersion
